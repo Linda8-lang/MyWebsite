@@ -1,65 +1,109 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: #fff8f4; /* soft pink background */
+  color: #5c3c45; /* muted plum tone for text */
+  font-family: 'Georgia', serif;
   font-size: 18px;
   line-height: 1.6em;
+  margin: 0;
+  padding: 0;
 }
+
 #main-header {
-  background-color: blue;
-  color: #fff;
+  background-color: #f7dce5; /* pastel pink */
+  color: #b03568; /* rose shade */
   text-align: center;
-  padding: 10px;
-}
-.container {
-  width: 80%;
-  margin: auto;
-  padding: 10px;
-}
-#nav-bar {
-  background-color:grey;
-}
-#nav-bar li {
-  display: inline;
-  list-style: none;
-  padding: 20px;
-  align-items: center;
-}
-#nav-bar a {
-  text-decoration: none;
-}
-a:hover {
-  background-color: seagreen;
-}
-a:active {
-  background-color: silver;
-}
-#showcase {
-  background-image: url("../images/shelly\ beach.jpg");
-  background-position: center;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  min-height: 300px;
-  text-align: center;
-  font-size: 20px;
-}
-#showcase h1 {
-  font-size: 50px;
-  text-align: left;
+  padding: 30px 10px;
+  font-size: 36px;
   font-style: italic;
 }
 
-#showcase p {
-  text-align: left;
-  margin-left: 0%;
+.container {
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.1);
 }
+
+#nav-bar {
+  background-color: #e9cfe0; /* soft lavender */
+  text-align: center;
+  padding: 10px 0;
+}
+
+#nav-bar li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 15px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: #5c3c45;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #d6c3e5; /* lavender highlight */
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+a:active {
+  background-color: #cbb4d4; /* slightly darker lavender */
+}
+
+#showcase {
+  background-image: url("../images/floral-banner.png"); /* Replace with your uploaded banner */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  text-align: center;
+  padding: 50px 20px;
+  color: #a0436d;
+}
+
+#showcase h1 {
+  font-size: 48px;
+  font-style: italic;
+  color: #a0436d;
+}
+
+#showcase p {
+  font-size: 20px;
+  font-style: italic;
+}
+
 #main-area h2 {
   text-align: left;
-  letter-spacing: 0.2em;
+  color: #6e4b5f;
+  letter-spacing: 0.1em;
 }
+
 #my-footer {
   padding: 20px;
-  margin-bottom: 0px;
-  background-color: blue;
+  margin-top: 20px;
+  background-color: #f7dce5;
+  color: #5c3c45;
   width: 100%;
   text-align: center;
+  font-size: 16px;
 }
+
+
+
+
+
+
+
+
+ 
+  
+ 
+  
+
+ 
+   
+   

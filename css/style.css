@@ -73,6 +73,13 @@ body {
   font-weight: bold;
 }
 
+#nav-bar a.active {
+  background-color: #d6336c;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
 a:hover {
   background-color: #d6c3e5; /* lavender highlight */
   border-radius: 5px;

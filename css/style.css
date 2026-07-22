@@ -8,6 +8,35 @@ body {
   padding: 0;
 }
 
+#offer-banner {
+  background: linear-gradient(90deg, #ff5f8a, #ff8a5f);
+  color: #fff;
+  text-align: center;
+  padding: 12px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  animation: offer-pulse 2s ease-in-out infinite;
+}
+
+.offer-badge {
+  display: inline-block;
+  background-color: #fff;
+  color: #d6336c;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+@keyframes offer-pulse {
+  0%, 100% { box-shadow: 0 0 0 rgba(255, 95, 138, 0); }
+  50% { box-shadow: 0 0 20px rgba(255, 95, 138, 0.6); }
+}
+
 #main-header {
   background-color: #f7dce5; /* pastel pink */
   color: #b03568; /* rose shade */
